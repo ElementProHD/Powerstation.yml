@@ -44,10 +44,8 @@ loadout:
   item: iron sword
  1:
   item: bow
-2:
+ 2:
   item: diamond pickaxe
-  enchants:
-  - dig_speed:3
  3:
   item: golden apple
   amount: 3
@@ -82,21 +80,21 @@ loadout:
 regions:
  red-spawn:
    type: cuboid
-  min: 365,16,-1333
-  max: 443,22,-1308
-  radius: 4
-  height: 4
-  flags:
+   min: 365,16,-1333
+   max: 443,22,-1308
+   radius: 4
+   height: 4
+   flags:
     build:
        who: '*'
        message: '&cYou may not build in the spawn area.'
  blue-spawn:
    type: cuboid
-  min: 443,16,-1165
-  max: 365,22,-1193
-  radius: 4
-  height: 4
-  flags:
+   min: 443,16,-1165
+   max: 365,22,-1193
+   radius: 4
+   height: 4
+   flags:
     build:
        who: '*'
        message: '&cYou may not build in the spawn area.'
